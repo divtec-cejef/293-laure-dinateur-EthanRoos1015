@@ -6,9 +6,9 @@
     <!-- Ajuste la taille de la page aux différents appareils : pc, mobiles, tablettes -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Titre de la page. Visible dans l'onglet du navigateur -->
-    <title>Accueil | Laure Dinateur | Graphiste</title>
+    <title>Laure Dinateur | Graphiste</title>
     <!-- Auteur -->
-    <meta name="author" content="Ethan Roos">
+    <meta name="author" content="Steve Fallet">
     <!-- Icône de base du site : FAVICON -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="CSS/main.css">
@@ -16,20 +16,76 @@
 <body class="page-accueil">
 <header>
     <a href="index.html">
-        <div>Laure Dinateur</div>
-        <div>Graphiste</div>
+        <div class="personne">Laure Dinateur</div>
+        <div class="metier">Graphiste</div>
     </a>
     <nav>
         <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="informations.html">Qui suis-je</a> </li>
+            <li class="accueil"><a class="actif" href="index.html">Accueil</a></li>
+            <li><a href="informations.html">Qui suis-je ?</a></li>
             <li><a href="contact.html">Me contacter</a></li>
         </ul>
     </nav>
 </header>
-    <!-- Titre principal (unique) de la page -->
-	<h1>Accueil</h1>
-    <!-- Un paragraphe -->
-    <p>Cette page web est incroyable!</p>
+<main>
+    <h1>Mes réalisations</h1>
+    <ul class="image">
+        <li>
+            <a href="_sources/images/numbers-01.jpg">
+                <figure>
+                    <img src="_sources/images/numbers-01.jpg" alt="image 1 multicolor">
+                    <figcaption>Expérimentation de couleurs</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="_sources/images/numbers-02.jpg">
+                <figure>
+                    <img src="_sources/images/numbers-02.jpg" alt="image 2 multicolor">
+                    <figcaption>Jeu de fondus</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="_sources/images/numbers-06.jpg">
+                <figure>
+                    <img src="_sources/images/numbers-06.jpg" alt="image 6 multicolor">
+                    <figcaption>80's style</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="_sources/images/numbers-09.jpg">
+                <figure>
+                    <img src="_sources/images/numbers-09.jpg" alt="image 9 multicolor">
+                    <figcaption>Travail avec les pinceaux</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="_sources/images/numbers-12.jpg">
+                <figure>
+                    <img src="_sources/images/numbers-12.jpg" alt="image 12 multicolor">
+                    <figcaption>Répétition des formes</figcaption>
+                </figure>
+            </a>
+        </li>
+    </ul>
+</main>
+<footer>
+    <ul>
+        <li>
+            <a href="https://twitter.com/lauredi">
+                <img src="img/twitter-draw.png" alt="Visiter mon Twitter">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/laure.dinateur">
+                <img src="img/facebook-draw.png" alt="Visiter mon Facebook">
+            </a>
+        </li>
+    </ul>
+    &copy;2024 Laure Dinateur
+</footer>
 </body>
 </html>
